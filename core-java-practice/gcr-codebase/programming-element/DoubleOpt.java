@@ -11,5 +11,6 @@ public class DoubleOpt {
         double result3 = c+a/b;
         double result4 = a%b+c;
         System.out.println("The result of Double Operations are " + result1 +", " + result2 + ", " + result3 + ", " + result4);
+        sc.close();
     }
 }
