@@ -1,4 +1,4 @@
-public class WlcmBridgeLabz {
+public class wlcmBridgeLabz {
     public static void main(String[] args) {
         System.out.println("Welcome to BridgeLabz");
     }
