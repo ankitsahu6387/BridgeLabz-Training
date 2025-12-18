@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class volumeOfCylinder {
+public class VolumeOfCylinder {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the radius of the cylinder: ");
@@ -8,5 +8,6 @@ public class volumeOfCylinder {
         double height = sc.nextDouble();
         double volume = Math.PI * radius * radius * height;
         System.out.println("The volume of the cylinder is: " + volume);
+        sc.close();
     }
 }
