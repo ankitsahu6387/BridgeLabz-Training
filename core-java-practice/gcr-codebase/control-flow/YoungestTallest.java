@@ -24,7 +24,7 @@ public class YoungestTallest {
         } else if(anthonyAge < amarAge && anthonyAge < akbarAge){
             System.out.println("Anthony is the youngest "+anthonyAge);
         } else {
-            System.out.println("Tie in youngest age.");
+            System.out.println("Tie in youngest age");
         }
         // tallest
         if(amarHeight > akbarHeight && amarHeight > anthonyHeight){
@@ -34,7 +34,7 @@ public class YoungestTallest {
         } else if(anthonyHeight > amarHeight && anthonyHeight > akbarHeight){
             System.out.println("Anthony is the tallest "+anthonyHeight);
         } else {
-            System.out.println("Tie in tallest height.");
+            System.out.println("Tie in tallest height");
         }   
     }
 }
