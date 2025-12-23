@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CharacterFrequency {
-    static String[][] findFrequency(String text) {
+    static String[][] frequency(String text) {
         int[] freq = new int[256];
         for (int i = 0; i < text.length(); i++) {
             freq[text.charAt(i)]++;
@@ -34,7 +34,7 @@ public class CharacterFrequency {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter text: ");
         String text = sc.nextLine();
-        String[][] result = findFrequency(text);
+        String[][] result = frequency(text);
         display(result);
         sc.close();
     }

@@ -1,4 +1,4 @@
-public class NullPointerDemo {
+public class NullPointer {
     static void generateException() {
         String text = null;
         System.out.println(text.length());

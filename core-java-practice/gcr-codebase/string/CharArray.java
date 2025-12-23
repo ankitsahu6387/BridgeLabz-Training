@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class CharArray {
-    static char[] getChars(String text) {
+    static char[] getChar(String text) {
         char[] chars = new char[text.length()];
         for (int i = 0; i < text.length(); i++) {
             chars[i] = text.charAt(i);
@@ -24,7 +24,7 @@ public class CharArray {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the string: ");
         String text = sc.next();
-        char[] userArray = getChars(text);
+        char[] userArray = getChar(text);
         char[] builtInArray = text.toCharArray();
         boolean isEqual = compareCharArrays(userArray, builtInArray);
         System.out.print("Characters using user-defined method: ");

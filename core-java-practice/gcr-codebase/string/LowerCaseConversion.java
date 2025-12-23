@@ -30,9 +30,9 @@ public class LowerCaseConversion {
         String lowerByChar = convertToLowerByChar(text);
         String lowerBuiltIn = text.toLowerCase();
         boolean isEqual = compareStrings(lowerByChar, lowerBuiltIn);
-        System.out.println("Lowercase using charAt(): " + lowerByChar);
-        System.out.println("Lowercase using toLowerCase(): " + lowerBuiltIn);
-        System.out.println("Are both conversions equal? " + isEqual);
+        System.out.println("Lowercase by charAt(): " + lowerByChar);
+        System.out.println("Lowercase by toLowerCase(): " + lowerBuiltIn);
+        System.out.println("Are both equal? " + isEqual);
         sc.close();
     }
 }
