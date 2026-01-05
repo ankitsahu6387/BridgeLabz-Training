@@ -13,10 +13,7 @@ public class CafeteriaMenu {
         return "Invalid Selection";
     }
     public static void main(String[] args) {
-        String[] menu = {
-            "Idli", "Dosa", "Vada", "Pav Bhaji", "Sandwich",
-            "Burger", "Pizza", "Pasta", "Coffee", "Tea"
-        };
+        String[] menu = {"Idli", "Dosa", "Vada", "Pav Bhaji", "Sandwich", "Burger", "Pizza", "Pasta", "Coffee", "Tea"};
         Scanner sc = new Scanner(System.in);
         displayMenu(menu);
         System.out.print("Select item index: ");
