@@ -3,8 +3,6 @@ class Student {
     String rollNumber;
     double mark1, mark2, mark3;
     char grade;
-
-    // Constructor to initialize student details
     Student(String name, String rollNumber, double mark1, double mark2, double mark3) {
         this.name = name;
         this.rollNumber = rollNumber;
@@ -12,8 +10,6 @@ class Student {
         this.mark2 = mark2;
         this.mark3 = mark3;
     }
-
-    // Method to calculate grade
     void calculateGrade() {
         double average = (mark1 + mark2 + mark3) / 3;
         if (average >= 80) grade = 'A';
@@ -22,7 +18,6 @@ class Student {
         else if (average >= 50) grade = 'D';
         else grade = 'F';
     }
-
     void displayDetails() {
         System.out.println("Student Name: " + name);
         System.out.println("Student RollNumber: " + rollNumber);
@@ -34,17 +29,12 @@ class Student {
         System.out.println("------------------------");
     }
 }
-
 public class StudentReport {
     public static void main(String[] args) {
-        // Creating student objects
         Student s1 = new Student("Thamarai", "ECE001", 80, 70, 75);
         Student s2 = new Student("Kannan", "CSC002", 60, 65, 50);
-
-        // Calculate grade and display details for each student
         s1.calculateGrade();
         s1.displayDetails();
-
         s2.calculateGrade();
         s2.displayDetails();
     }
