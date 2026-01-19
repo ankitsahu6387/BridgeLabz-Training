@@ -1,3 +1,4 @@
+//UC 1: Create ContactPerson Class
 public class ContactPerson {
     private String firstName;
     private String lastName;
@@ -45,5 +46,23 @@ public class ContactPerson {
     public String getEmail() { return email; }
     public void setEmail(String email) { this.email = email; }
 
-    
+    // Override equals for duplicate check
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+
+        ContactPerson other = (ContactPerson) obj;
+        return firstName.equalsIgnoreCase(other.firstName) && lastName.equalsIgnoreCase(other.lastName);
+    }
+
+    @Override
+    public int hashCode() {
+        return firstName.toLowerCase().hashCode() + lastName.toLowerCase().hashCode();
+    }
+
+    @Override
+    public String toString() {
+        return firstName + " " + lastName + ", " + address + ", " + city + ", " + state + ", " + zip + ", " + phone + ", " + email;
+    }
 }
