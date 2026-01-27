@@ -4,7 +4,7 @@ public class ReadErrorLines {
 
     public static void main(String[] args) {
 
-        String filePath = "largefile.txt"; // 500MB+ file
+        String filePath = "sample.txt"; // 500MB+ file
 
         try (BufferedReader reader =
                      new BufferedReader(new FileReader(filePath))) {

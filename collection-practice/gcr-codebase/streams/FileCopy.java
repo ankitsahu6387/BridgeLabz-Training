@@ -6,7 +6,7 @@ import java.io.File;
 public class FileCopy {
     public static void main(String[] args) {
 
-        String sourceFile = "source.txt";
+        String sourceFile = "sample.txt";
         String destFile = "destination.txt";
 
         File file = new File(sourceFile);

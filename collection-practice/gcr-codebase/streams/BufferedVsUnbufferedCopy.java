@@ -6,7 +6,7 @@ public class BufferedVsUnbufferedCopy {
 
     public static void main(String[] args) {
 
-        String source = "largefile.dat";      // e.g. 100MB file
+        String source = "sample.txt";      // e.g. 100MB file
         String unbufferedDest = "unbuffered_copy.dat";
         String bufferedDest = "buffered_copy.dat";
 

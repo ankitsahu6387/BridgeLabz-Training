@@ -4,7 +4,7 @@ public class UpperToLowerCaseFile {
 
     public static void main(String[] args) {
 
-        String sourceFile = "input.txt";
+        String sourceFile = "sample.txt";
         String destFile = "output.txt";
 
         // Explicit charset handling
