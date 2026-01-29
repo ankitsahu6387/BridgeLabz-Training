@@ -21,7 +21,7 @@ public class EmployeeSerialization {
         deserializeEmployees();
     }
 
-    // 🔹 Serialize method
+    //  Serialize method
     static void serializeEmployees(List<Employee> employees) {
         try (ObjectOutputStream oos =
                      new ObjectOutputStream(new FileOutputStream(FILE_NAME))) {
@@ -35,7 +35,7 @@ public class EmployeeSerialization {
         }
     }
 
-    // 🔹 Deserialize method
+    //  Deserialize method
     static void deserializeEmployees() {
         try (ObjectInputStream ois =
                      new ObjectInputStream(new FileInputStream(FILE_NAME))) {
