@@ -1,9 +1,11 @@
+package junit_testing;
+
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
-public class CalculatorTest {
+public class Calculator2Test {
 
-    Calculator calculator = new Calculator();
+    Calculator2 calculator = new Calculator2();
 
     @Test
     public void testDivideByZeroException() {

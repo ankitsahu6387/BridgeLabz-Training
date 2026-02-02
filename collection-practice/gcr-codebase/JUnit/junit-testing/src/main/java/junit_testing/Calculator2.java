@@ -1,3 +1,4 @@
+package junit_testing;
 public class Calculator2 {
 
     public int divide(int a, int b) {
