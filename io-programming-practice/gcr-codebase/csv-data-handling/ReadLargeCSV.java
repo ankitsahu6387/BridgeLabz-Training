@@ -4,7 +4,7 @@ public class ReadLargeCSV {
 
 	public static void main(String[] args) {
 		
-		String filePath = "C:\\Users\\dimpl\\Desktop\\BridgeLabz-Training\\io-programming-practice\\gcr-codebase\\csvDataHandling\\student.csv";
+		String filePath = "D:\\BridgeLabz-Training\\io-programming-practice\\gcr-codebase\\csv-data-handling\\student.csv";
         int chunkSize = 100;
         int totalRecords = 0;
 

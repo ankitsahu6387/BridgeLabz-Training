@@ -3,8 +3,8 @@ public class UpdateRecord {
 
 	public static void main(String[] args) {
 		
-		String filePath = "C:\\Users\\dimpl\\Desktop\\BridgeLabz-Training\\io-programming-practice\\gcr-codebase\\csvDataHandling\\employees.csv";
-		String outputFile = "C:\\Users\\dimpl\\Desktop\\BridgeLabz-Training\\io-programming-practice\\gcr-codebase\\csvDataHandling\\employees_updated.csv";
+		String filePath = "D:\\BridgeLabz-Training\\io-programming-practice\\gcr-codebase\\csv-data-handling\\employees.csv";
+		String outputFile = "D:\\BridgeLabz-Training\\io-programming-practice\\gcr-codebase\\csv-data-handling\\employees_updated.csv";
 		try (
 	            BufferedReader br = new BufferedReader(new FileReader(filePath));
 	            BufferedWriter bw = new BufferedWriter(new FileWriter(outputFile))
