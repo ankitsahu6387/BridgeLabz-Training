@@ -180,3 +180,10 @@ Multithreading assignment codes implemented and added. TestCase Scenario based c
 
 JDBC & DBMS assignment codes implemented and added.
 
+**12 Febuary (Thursday)**
+
+
+
+
+
+
