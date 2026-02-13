@@ -182,6 +182,17 @@ JDBC & DBMS assignment codes implemented and added.
 
 **12 Febuary (Thursday)**
 
+Java8 features codes updated and refactored.
+
+**13 Febuary (Friday)**
+
+Online Course Manager Scenario-based code implemented and added.
+
+**14 Febuary (Saturday)**
+
+
+
+
 
 
 
