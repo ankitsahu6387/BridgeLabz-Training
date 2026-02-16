@@ -15,7 +15,7 @@ public class Main {
 
         boolean exit = false;
         while (!exit) {
-            System.out.println("\n1. Add Contact\n2. Edit Contact\n3. Delete Contact\n4. View All\n5. Search by City\n6. Search by State\n7. Exit");
+            System.out.println("\n1. Add Contact\n2. Edit Contact\n3. Delete Contact\n4. View All\n5. Search by City\n6. Search by State\n7. Sort By Name\n8. Sort By City\n9. Sort By State\n10. Sort By Zip\n11. Exit");
             System.out.print("Choose an option: ");
             int choice = sc.nextInt();
             sc.nextLine(); // consume newline
@@ -76,11 +76,35 @@ public class Main {
                     List<ContactPerson> stateResult = service.searchByStateAcrossBooks(sState);
                     stateResult.forEach(System.out::println);
                     break;
-
-                case 7: // Exit
-                    exit = true;
+                
+                case 7:
+                    currentBook.sortByName();
+                    System.out.println("Sorted by Name:");
+                    currentBook.getAllContacts().forEach(System.out::println);
+                    break;
+                
+                case 8:
+                    currentBook.sortByCity();
+                    System.out.println("Sorted by City:");
+                    currentBook.getAllContacts().forEach(System.out::println);
+                    break;
+                
+                case 9:
+                    currentBook.sortByState();
+                    System.out.println("Sorted by State:");
+                    currentBook.getAllContacts().forEach(System.out::println);
                     break;
 
+                case 10:
+                    currentBook.sortByZip();
+                    System.out.println("Sorted by Zip:");
+                    currentBook.getAllContacts().forEach(System.out::println);
+                    break;
+
+                case 11: //Exit
+                    exit = true;
+                    break;
+                    
                 default:
                     System.out.println("Invalid choice!");
             }

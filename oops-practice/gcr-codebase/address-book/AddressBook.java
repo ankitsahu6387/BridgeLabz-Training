@@ -67,4 +67,20 @@ public class AddressBook {
     public int countByState(String state) {
         return searchByState(state).size();
     }
+    //  UC 11: Sort Contacts by First Name
+    public void sortByName() {
+        Collections.sort(contacts, Comparator.comparing(ContactPerson::getFirstName));
+    }
+    // UC 12: Sort by City
+    public void sortByCity() {
+        Collections.sort(contacts, Comparator.comparing(ContactPerson::getCity));
+    }
+    // Sort by State
+    public void sortByState() {
+        Collections.sort(contacts, Comparator.comparing(ContactPerson::getState));
+    }
+    // Sort by Zip
+    public void sortByZip() {
+        Collections.sort(contacts, Comparator.comparing(ContactPerson::getZip));
+    }
 }
