@@ -6,8 +6,11 @@
 		</attributes>
 	</classpathentry>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	<classpathentry kind="src" path="io-programming-practice/leet-code-codebase"/>
 >>>>>>> io-programming-practice
+=======
+>>>>>>> java8-features-practice
 	<classpathentry kind="output" path="bin"/>
 </classpath>
