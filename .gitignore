@@ -1,13 +1,3 @@
 # Compiled Java files
 *.class
-<<<<<<< HEAD
-<<<<<<< HEAD
 /bin/
-.classpath
-.project
-=======
-/bin/
->>>>>>> collection-practice
-=======
-/bin/
->>>>>>> io-programming-practice
