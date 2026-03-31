@@ -1,0 +1,100 @@
+Java is a popular programming language.
+It is widely used for backend development.
+Streams in Java help in reading and writing data.
+FileReader reads data as characters.
+InputStreamReader converts byte streams into character streams.
+Performance matters when handling large files.
+Efficient I/O improves application speed.
+Java supports both byte and character streams.
+This file is used to test file reading performance.
+End of sample data.
+Java is a popular programming language.
+It is widely used for backend development.
+Streams in Java help in reading and writing data.
+FileReader reads data as characters.
+InputStreamReader converts byte streams into character streams.
+Performance matters when handling large files.
+Efficient I/O improves application speed.
+Java supports both byte and character streams.
+This file is used to test file reading performance.
+End of sample data.
+Java is a popular programming language.
+It is widely used for backend development.
+Streams in Java help in reading and writing data.
+FileReader reads data as characters.
+InputStreamReader converts byte streams into character streams.
+Performance matters when handling large files.
+Efficient I/O improves application speed.
+Java supports both byte and character streams.
+This file is used to test file reading performance.
+End of sample data.
+Java is a popular programming language.
+It is widely used for backend development.
+Streams in Java help in reading and writing data.
+FileReader reads data as characters.
+InputStreamReader converts byte streams into character streams.
+Performance matters when handling large files.
+Efficient I/O improves application speed.
+Java supports both byte and character streams.
+This file is used to test file reading performance.
+End of sample data.
+Java is a popular programming language.
+It is widely used for backend development.
+Streams in Java help in reading and writing data.
+FileReader reads data as characters.
+InputStreamReader converts byte streams into character streams.
+Performance matters when handling large files.
+Efficient I/O improves application speed.
+Java supports both byte and character streams.
+This file is used to test file reading performance.
+End of sample data.
+Java is a popular programming language.
+It is widely used for backend development.
+Streams in Java help in reading and writing data.
+FileReader reads data as characters.
+InputStreamReader converts byte streams into character streams.
+Performance matters when handling large files.
+Efficient I/O improves application speed.
+Java supports both byte and character streams.
+This file is used to test file reading performance.
+End of sample data.
+Java is a popular programming language.
+It is widely used for backend development.
+Streams in Java help in reading and writing data.
+FileReader reads data as characters.
+InputStreamReader converts byte streams into character streams.
+Performance matters when handling large files.
+Efficient I/O improves application speed.
+Java supports both byte and character streams.
+This file is used to test file reading performance.
+End of sample data.
+Java is a popular programming language.
+It is widely used for backend development.
+Streams in Java help in reading and writing data.
+FileReader reads data as characters.
+InputStreamReader converts byte streams into character streams.
+Performance matters when handling large files.
+Efficient I/O improves application speed.
+Java supports both byte and character streams.
+This file is used to test file reading performance.
+End of sample data.
+Java is a popular programming language.
+It is widely used for backend development.
+Streams in Java help in reading and writing data.
+FileReader reads data as characters.
+InputStreamReader converts byte streams into character streams.
+Performance matters when handling large files.
+Efficient I/O improves application speed.
+Java supports both byte and character streams.
+This file is used to test file reading performance.
+End of sample data.
+Java is a popular programming language.
+It is widely used for backend development.
+Streams in Java help in reading and writing data.
+FileReader reads data as characters.
+InputStreamReader converts byte streams into character streams.
+Performance matters when handling large files.
+Efficient I/O improves application speed.
+Java supports both byte and character streams.
+This file is used to test file reading performance.
+End of sample data.
