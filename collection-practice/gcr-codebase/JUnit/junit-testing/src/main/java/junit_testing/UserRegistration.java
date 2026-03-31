@@ -1,0 +1,22 @@
+package junit_testing;
+
+public class UserRegistration {
+
+    public void registerUser(String username, String email, String password) {
+
+        if (username == null || username.isEmpty()) {
+            throw new IllegalArgumentException("Invalid username");
+        }
+
+        if (email == null || !email.matches("^[\\w.-]+@[\\w.-]+\\.\\w+$")) {
+            throw new IllegalArgumentException("Invalid email");
+        }
+
+        if (password == null || password.length() < 8 || !password.matches(".*[A-Z].*") 
+            || !password.matches(".*\\d.*")) {
+            throw new IllegalArgumentException("Invalid password");
+        }
+
+        // Registration logic can be added here (e.g., saving user to DB)
+    }
+}

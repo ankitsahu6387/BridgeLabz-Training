@@ -1,5 +1,9 @@
 # Compiled Java files
 *.class
+<<<<<<< HEAD
 /bin/
 .classpath
 .project
+=======
+/bin/
+>>>>>>> collection-practice
