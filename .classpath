@@ -7,10 +7,13 @@
 	</classpathentry>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 	<classpathentry kind="src" path="io-programming-practice/leet-code-codebase"/>
 >>>>>>> io-programming-practice
 =======
 >>>>>>> java8-features-practice
+=======
+>>>>>>> jdbc-practice
 	<classpathentry kind="output" path="bin"/>
 </classpath>
